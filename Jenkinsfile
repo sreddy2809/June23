@@ -7,6 +7,10 @@ pipeline{
 			}
 		}
 		stage("BUILD"){
+		   when {
+			branch 'master'
+			}
+
 			steps{
 				echo "Params value isabc"
 			}
