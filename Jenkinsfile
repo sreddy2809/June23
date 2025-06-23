@@ -3,7 +3,7 @@ pipeline{
 	stages{
 		stage("SCM"){
 			steps{
-			   echo " SCM Stage"
+			   echo " SCM Stage US1"
 			}
 		}
 		stage("BUILD"){
